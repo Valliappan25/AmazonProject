@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="135.951327">
+    <testcase classname="Select Product and check out in Amazon" name="User Select Product from Amazon and Check out the Product" time="135.951327">
+        <system-out><![CDATA[Given Visit amazon.in.......................................................passed
+When Click ALL categories in the left side..................................passed
+And Click Men's fashion category and click TShirts and Polos................passed
+And In the left side option, choose "2XL" size..............................passed
+And In the left side option, mark eligible for Pay on delivery..............passed
+And From the results, scroll down and select AMERICAN CREW product and navigate to Product page.passed
+And Select Royal Blue & Navy Melange color..................................passed
+And Open and see size chart link present in product page then close it......passed
+And After that, select any size from size dropdown in product page..........passed
+And Add that product to cart and verify whether it is reflected in cart or not with correct details.passed
+Then Print the verification message in console for cart validation is success or not.passed
+]]></system-out>
+    </testcase>
+</testsuite>
